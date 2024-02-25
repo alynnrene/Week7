@@ -4,11 +4,11 @@ Do not use numbers to reference the last element, find it programmatically.
 ages[7] - ages[0] is not allowed!*/
 
     let ages = [3, 9, 23, 64, 2, 8, 28, 93];
-    console.log (ages [ages.length - 1] - ages [0]);
+    //console.log (ages [ages.length - 1] - ages [0]);
 
 /*Add a new age to your array and repeat the step above to ensure it is dynamic. (works for arrays of different lengths).*/
 
-    let ges = [3, 9, 23, 64, 2, 8, 28, 93, 37];
+    //let ages = [3, 9, 23, 64, 2, 8, 28, 93, 37];
     console.log (ages [ages.length - 1] - ages [0]);
 
 /*Use a loop to iterate through the array and calculate the average age.*/
@@ -77,7 +77,7 @@ ages[7] - ages[0] is not allowed!*/
     let array = [36, 12, 9, 67, 71];
     let n = array.length;
     let sumOfArray = array.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
-    //console.log (sumOfArray > 100)
+    console.log (sumOfArray > 100)
     
 /*Write a function that takes an array of numbers and returns the average of all the elements in the array.*/
 
